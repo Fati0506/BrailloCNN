@@ -1,0 +1,38 @@
+{
+ "cnn63_vs_logreg": {
+  "mcnemar": {
+   "solo_A_acierta": 6641,
+   "solo_B_acierta": 149,
+   "chi2": 6205.166568483063,
+   "p_valor": 0.0
+  },
+  "ic95_dif_accuracy": [
+   0.4356251075269302,
+   0.5578859072657941
+  ]
+ },
+ "cnndots_vs_logreg": {
+  "mcnemar": {
+   "solo_A_acierta": 6450,
+   "solo_B_acierta": 306,
+   "chi2": 5585.620041444642,
+   "p_valor": 0.0
+  },
+  "ic95_dif_accuracy": [
+   0.41338488649916594,
+   0.5296296345958558
+  ]
+ },
+ "cnndots_vs_cnn63": {
+  "mcnemar": {
+   "solo_A_acierta": 647,
+   "solo_B_acierta": 995,
+   "chi2": 73.33069427527406,
+   "p_valor": 1.0964941472501552e-17
+  },
+  "ic95_dif_accuracy": [
+   -0.04311355727373731,
+   -0.01199880574061583
+  ]
+ }
+}

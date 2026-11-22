@@ -1,0 +1,28 @@
+{
+ "modelo": "cnndots",
+ "semilla": 1,
+ "keras": {
+  "accuracy": 0.8168754322600477,
+  "precision": 0.6880896097498629,
+  "recall": 0.7765199348744033,
+  "f1": 0.6983883844744007
+ },
+ "float32": {
+  "size_kb": 170.0,
+  "accuracy": 0.8167985860293553,
+  "precision": 0.6879442313547582,
+  "recall": 0.7764229322553325,
+  "f1": 0.6982428665948064,
+  "coincide_con_keras": 0.9999231537693076,
+  "latencia_ms_por_celda_cpu_colab": 0.255
+ },
+ "pesos_int8_dinamico": {
+  "size_kb": 53.7,
+  "accuracy": 0.8162606624145086,
+  "precision": 0.6919186898156374,
+  "recall": 0.7751014761436235,
+  "f1": 0.7007184648214573,
+  "coincide_con_keras": 0.9860908322446784,
+  "latencia_ms_por_celda_cpu_colab": 0.224
+ }
+}
