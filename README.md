@@ -12,10 +12,3 @@ Se empleó **AngelinaDataset** (Ovodov, 2021), compuesto por **85 263 celdas Bra
 
 ## 4. ¿Cómo obtener los datos?
 El cuaderno `notebooks/Braille_CNN_Colab.ipynb` descarga y descomprime automáticamente *AngelinaDataset* desde su repositorio oficial en GitHub al ejecutarse, generando los recortes normalizados de $28 \times 28$ píxeles y los archivos de auditoría en `data/processed/`.
-
-## 5. ¿Cómo instalar el proyecto?
-1. Clonar el repositorio:
-   ```bash
-   git clone [https://github.com/Shanks0465/BrailleCNN.git](https://github.com/Shanks0465/BrailleCNN.git)
-   cd BrailleCNN
-   
